@@ -4,9 +4,8 @@
 Dockerzied httpd documentation for offline use.
 
 # Image description #
-- Base image: `httpd:2.4.25-alpine`
-- The most current httpd documentation is downloaded
-- httpd documentation directory (`/httpd-docs-<version>.en`) is linked to httpd `DocumentRoot` (`/usr/local/apache2/htdocs`)  
+- Base image: `centos/httpd-24-centos7`
+- The most current httpd (2.4.33) documentation is downloaded
 
 # How to use this image #
 
